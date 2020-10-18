@@ -1,0 +1,24 @@
+Buat akun pada https://github.com/
+
+Setelah selesai, lalu download Git, download disini https://git-scm.com/downloads
+
+Instal seperti biasa
+
+Lalu login ke akun github dan buat repository baru, klik link https://github.com/new s
+etelah Create Repository muncul halaman seperti ini:\ Image ini berfungsi sebagai perintah command line\
+
+Setelah itu buka project yang akan dimasukkan ke Github, caranya klik kanan pada folder project dan pilih Git Bash Here Image dan muncul command line Image
+
+Ketikkan perintah seperti di step 5:
+echo "# Repository-Baru" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin "link yang inggin di masukkan"
+git push -u origin master
+Penjelasan:
+
+git add = untuk memiliih file yang akan dimasukan ke github (kalau pilih semua: “ git add . “ )
+git commit = untuk memberi commit/pesan git remote = alamat untuk memasukan ke github
+git push = untuk ngepush semuanya ke github klik enter dan lihat project kamu sudah terupload ke Github
+Selamat Project kamu sudah masuk ke Github!
